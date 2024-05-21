@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Holly Wood Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game-container">
+        <div id="player1-section">
+            <h2>Player 1:</h2>
+            <label for="word-input">Enter the word:</label>
+            <input type="password" id="word-input" />
+            <button id="start-game">Start Game</button>
+        </div>
+        <div id="player2-section" class="hidden">
+            <h2>Player 2:</h2>
+            <div id="status"></div>
+            <div id="false-out"></div>
+            <div id="check"></div>
+            <label for="guess-input">Enter an alphabet you choose:</label>
+            <input type="text" id="guess-input" maxlength="1" />
+            <button id="guess-button">Guess</button>
+            <div id="chances"></div>
+        </div>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
