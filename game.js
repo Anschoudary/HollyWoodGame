@@ -11,10 +11,10 @@ let tCheck = 0;
 function startGame() {
     word = document.getElementById("word-input").value.toLowerCase();
     falseOut = "";
-    // status = "HollyWoodGame";
+    status = "HollyWoodGame";
     check = Array(word.length).fill("_");
-    // fCheck = 0;
-    // tCheck = 0;
+    fCheck = 0;
+    tCheck = 0;
 
     document.getElementById("player1-section").classList.add("hidden");
     document.getElementById("player2-section").classList.remove("hidden");
